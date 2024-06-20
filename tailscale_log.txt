@@ -1,13 +1,11 @@
-2024/06/20 05:50:56 logtail started
-2024/06/20 05:50:56 Program starting: v1.68.1-tf02ad8397-g8f9cb4763, Go 1.22.4: []string{"./tailscaled"}
-2024/06/20 05:50:56 LogID: 2c31985bd258c28353592d7edff06d8b91b3d5d0e84ae3f046548811212c9969
-2024/06/20 05:50:56 logpolicy: using system state directory "/var/lib/tailscale"
-2024/06/20 05:50:56 dns: [rc=resolvconf resolvconf=no ret=direct]
-2024/06/20 05:50:56 dns: using "direct" mode
-2024/06/20 05:50:56 dns: using *dns.directManager
-2024/06/20 05:50:56 rename of "/etc/resolv.pre-tailscale-backup.conf" to "/etc/resolv.conf" failed (rename /etc/resolv.pre-tailscale-backup.conf /etc/resolv.conf: device or resource busy), falling back to copy+delete
-2024/06/20 05:50:56 restarting systemd-resolved...
-2024/06/20 05:50:56 restarted systemd-resolved
-2024/06/20 05:50:56 flushing log.
-2024/06/20 05:50:56 logger closing down
-2024/06/20 05:50:56 safesocket.Listen: /var/run/tailscale/tailscaled.sock: address already in use
+2024/06/20 05:55:07 logtail started
+2024/06/20 05:55:07 Program starting: v1.68.1-tf02ad8397-g8f9cb4763, Go 1.22.4: []string{"./tailscaled"}
+2024/06/20 05:55:07 LogID: 2c31985bd258c28353592d7edff06d8b91b3d5d0e84ae3f046548811212c9969
+2024/06/20 05:55:07 logpolicy: using system state directory "/var/lib/tailscale"
+2024/06/20 05:55:07 dns: resolvedIsActuallyResolver error: resolv.conf doesn't point to systemd-resolved; points to [127.0.0.53 168.63.129.16]
+2024/06/20 05:55:07 dns: [rc=resolved resolved=not-in-use ret=direct]
+2024/06/20 05:55:07 dns: using "direct" mode
+2024/06/20 05:55:07 dns: using *dns.directManager
+2024/06/20 05:55:07 flushing log.
+2024/06/20 05:55:07 logger closing down
+2024/06/20 05:55:07 safesocket.Listen: /var/run/tailscale/tailscaled.sock: address already in use
